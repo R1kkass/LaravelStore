@@ -72,7 +72,7 @@ class ProductController extends Controller
     public function getFile(Request $request)
     {
         $filePath = storage_path('hostingproject'.$request->input("file"));
-        return $request;
+        return $request->all();
         // return response()->file($filePath, ['Content-Type: multipart/form-data']);
     }
 
