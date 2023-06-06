@@ -61,7 +61,7 @@ class ProductController extends Controller
             $fileName = Str::uuid();
             $file->move(storage_path(),"$fileName.$extension");
             DB::table("images")->insert([
-                "imgUrl"=>"http://80.78.247.66//api/file?file=$fileName.$extension",
+                "imgUrl"=>"http://80.78.247.66/api/file?file=$fileName.$extension",
                 "products_id"=>$create
             ]);
         }
@@ -71,9 +71,8 @@ class ProductController extends Controller
     
     public function getFile(Request $request)
     {
-        $filePath = storage_path('hostingproject'.$request->query("file"));
+        $filePath = storage_path('hostingproject'.$request["file"]);
         return response()->file($filePath, ['Content-Type: multipart/form-data']);
-        // return $filePath;
     }
 
     public function getOne(Request $request){
