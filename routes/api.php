@@ -41,6 +41,7 @@ Route::group([
 });
 
 Route::post('regist', [AuthController::class, "regist"]);
+Route::get('init', [AuthController::class, "init"]);
 
 Route::group([
     "middleware" => "jwt.auth",

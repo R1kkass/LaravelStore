@@ -124,4 +124,20 @@ class AuthController extends Controller
                 'expires_in' => auth()->factory()->getTTL() * 60
             ]);
     }
+
+    public function init() {
+        $role = DB::table('role')->insert([
+            "name" => "USER"
+        ]);
+        $role = DB::table('role')->insert([
+            "name" => "ADMIN"
+        ]);
+        $regist = DB::table("users")->insert([
+            "password"=>Hash::make("123456"), 
+            "name" => "Андрей Догин Алексеевич", 
+            "email" => "dogin@y.ru",
+            "roleId" => 2
+        ]); 
+        return $regist;
+    }
 }
