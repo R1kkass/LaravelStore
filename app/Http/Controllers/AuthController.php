@@ -127,10 +127,10 @@ class AuthController extends Controller
 
     public function init() {
         $role = DB::table('role')->insert([
-            "name" => "USER"
+            "roleName" => "USER"
         ]);
         $role = DB::table('role')->insert([
-            "name" => "ADMIN"
+            "roleName" => "ADMIN"
         ]);
         $regist = DB::table("users")->insert([
             "password"=>Hash::make("123456"), 
