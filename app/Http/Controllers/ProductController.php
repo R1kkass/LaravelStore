@@ -71,13 +71,13 @@ class ProductController extends Controller
     
     public function getFile(Request $request)
     {
-        $filePath = storage_path(''.$request->get("file"));
+        $filePath = storage_path('hostingproject'.$request->get("file"));
         return response()->file($filePath, ['Content-Type: multipart/form-data']);
     }
 
     public function getOne(Request $request){
         $products2 = Products::with("image")->where("id", $request->get("id"))->first();
-        return $request->id;
+        return response()->json($products2);
     }
 
     public function update(Request $request){
