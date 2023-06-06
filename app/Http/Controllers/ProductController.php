@@ -15,18 +15,18 @@ use Illuminate\Validation\Rules\File;
 class ProductController extends Controller
 {
     public function get(Request $request){
-        $page = $request->get('page') ? $request->get('page') : 1;
-        $search = $request->get('search')=="null" ? $request->get('search') : "";
+        $page = $request['page'] ? $request-['page'] : 1;
+        $search = $request['search']=="null" ? $request['search'] : "";
         $limit = 10;
         $products = Products::with("image")
-            ->where("name", "like", "%" . $request->get("search") . "%")
-            ->where('categories', "like", "%" . $request->get('category') . "%")        
+            ->where("name", "like", "%" . $request["search"] . "%")
+            ->where('categories', "like", "%" . $request['category'] . "%")        
             ->skip(($page-1)*10)
             ->take(($page)*10)
-            // ->orderBy($request->get('column'), $request->get('order'))
+            ->orderBy($request['column'], $request['order'])
             ->get();
-        $count = Products::where("name", "like", "%" . $request->get("search") . "%")
-            ->where('categories', "like", "%" . $request->get('category') . "%")
+        $count = Products::where("name", "like", "%" . $request["search"] . "%")
+            ->where('categories', "like", "%" . $request['category'] . "%")
             ->count();
         return response()->json(['products'=>$products, 'count'=>$count]);
     }

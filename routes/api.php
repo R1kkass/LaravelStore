@@ -62,7 +62,7 @@ Route::group([
 
 Route::get('getallcategory', [CategoryController::class, "get"]);
 Route::get("file", [ProductController::class, "getFile"]);
-Route::get('getall', [ProductController::class, "get"]);
+Route::post('getall', [ProductController::class, "get"]);
 Route::post('getone', [ProductController::class, "getOne"]);
 
 Route::group([
