@@ -15,7 +15,7 @@ use Illuminate\Validation\Rules\File;
 class ProductController extends Controller
 {
     public function get(Request $request){
-        $page = $request['page'] ? $request-['page'] : 1;
+        $page = $request['page'] ? $request['page'] : 1;
         $search = $request['search']=="null" ? $request['search'] : "";
         $limit = 10;
         $products = Products::with("image")
