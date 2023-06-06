@@ -63,7 +63,7 @@ Route::group([
 Route::get('getallcategory', [CategoryController::class, "get"]);
 Route::get("file", [ProductController::class, "getFile"]);
 Route::get('getall', [ProductController::class, "get"]);
-Route::get('getone', [ProductController::class, "getOne"]);
+Route::post('getone', [ProductController::class, "getOne"]);
 
 Route::group([
     "middleware" => "jwt.auth",
