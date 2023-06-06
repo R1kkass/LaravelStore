@@ -77,7 +77,7 @@ class ProductController extends Controller
 
     public function getOne(Request $request){
         $products2 = Products::with("image")->where("id", $request->get("id"))->first();
-        return $request->get("id");
+        return $request;
     }
 
     public function update(Request $request){
