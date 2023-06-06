@@ -23,7 +23,7 @@ class ProductController extends Controller
             ->where('categories', "like", "%" . $request->get('category') . "%")        
             ->skip(($page-1)*10)
             ->take(($page)*10)
-            ->orderBy($request->get('column'), $request->get('order'))
+            // ->orderBy($request->get('column'), $request->get('order'))
             ->get();
         $count = Products::where("name", "like", "%" . $request->get("search") . "%")
             ->where('categories', "like", "%" . $request->get('category') . "%")
