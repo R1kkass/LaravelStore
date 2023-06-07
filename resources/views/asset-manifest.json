@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9b675079.css",
+    "main.js": "./static/js/main.aa5a2d2c.js",
+    "static/js/787.cae4f891.chunk.js": "./static/js/787.cae4f891.chunk.js",
+    "static/media/Logo.svg": "./static/media/Logo.f8218379a4aa5f7b9639d3e571c95126.svg",
+    "static/media/LogoFooter.svg": "./static/media/LogoFooter.5af549fae7830abd2be2a8c2b4824229.svg",
+    "static/media/MasterCard.svg": "./static/media/MasterCard.f69ecfb334822e16da40a171b9906b42.svg",
+    "static/media/Basket.svg": "./static/media/Basket.ba0aa48be5d5e6556cf923894ad30e0b.svg",
+    "static/media/WhatsApp.svg": "./static/media/WhatsApp.db4fdea63d5ac10f8039908e900cc30f.svg",
+    "static/media/BasketWhite.svg": "./static/media/BasketWhite.eb4a2fa86a7215d9f0018fedab6252a6.svg",
+    "static/media/Payment.svg": "./static/media/Payment.8735fdb1aad9c0d7deb74aaa0afef6b0.svg",
+    "static/media/Delete.svg": "./static/media/Delete.44202266d5f12854837e97d26b8ce355.svg",
+    "static/media/Visa.svg": "./static/media/Visa.91bd88b59690325641759585734269a8.svg",
+    "static/media/Email.svg": "./static/media/Email.80c6e18ebe0a65a1d11d5a2ba3fb9f67.svg",
+    "static/media/Catalog.svg": "./static/media/Catalog.191120ab422fb72f764cf1becd2d705e.svg",
+    "static/media/Address.svg": "./static/media/Address.200521fedb3144ec85d22262998d770a.svg",
+    "static/media/Share.svg": "./static/media/Share.c7ea557134a8977c1abbf2213e507dea.svg",
+    "static/media/Bottle.svg": "./static/media/Bottle.4dcb2f7b2fce5e4998ce83687d126773.svg",
+    "static/media/Telegram.svg": "./static/media/Telegram.697665a0f3964f366e083136e2b3ac6e.svg",
+    "static/media/Search.svg": "./static/media/Search.a409f6dd3704cd543d69d80f61c6aaf5.svg",
+    "static/media/Box.svg": "./static/media/Box.16318598fb0d18ca14637ccdf28201f7.svg",
+    "index.html": "./index.html",
+    "static/media/Block.svg": "./static/media/Block.5cf9a21ab39455d28d8982ddee96eb10.svg",
+    "static/media/Mobile.svg": "./static/media/Mobile.abfea8252c976cf247af0ded9e0deb82.svg",
+    "static/media/Download.svg": "./static/media/Download.5e96ff0389bda2c469106116f0a58afd.svg",
+    "static/media/DownloadBlack.svg": "./static/media/DownloadBlack.b4a018e6bde260809eaf03c558dde16e.svg",
+    "static/media/Rows.svg": "./static/media/Rows.867d0eff8b7d9549e1072b8f7e02e94f.svg",
+    "static/media/Prev.svg": "./static/media/Prev.8009929457bde0328f8f182170fd2c0f.svg",
+    "static/media/Next.svg": "./static/media/Next.93ba4abe5846a231d455ec0417dd0a4b.svg",
+    "static/media/Crumb.svg": "./static/media/Crumb.20b2dfd57849f6cfcf55fbfba6a3637b.svg",
+    "static/media/PolygonBottom.svg": "./static/media/PolygonBottom.260e242d67fc23d29ab014c3406116d8.svg",
+    "static/media/PolygonTop.svg": "./static/media/PolygonTop.5e5d30daddeae7614a94f9346edb1e23.svg",
+    "main.9b675079.css.map": "./static/css/main.9b675079.css.map",
+    "main.aa5a2d2c.js.map": "./static/js/main.aa5a2d2c.js.map",
+    "787.cae4f891.chunk.js.map": "./static/js/787.cae4f891.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b675079.css",
+    "static/js/main.aa5a2d2c.js"
+  ]
+}
