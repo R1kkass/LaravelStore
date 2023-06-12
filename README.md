@@ -1,11 +1,9 @@
-
-
 # Fullstack. АрзМото
 
 ## Stack: Redux, React, TS, Laravel, MySQL
 
 ## deploy: http://37.140.195.252:8081/#/
-## BackEnd Laravel: https://github.com/R1kkass/LaravelStore
+## FrontEnd React: https://github.com/R1kkass/AllStore
 
 # Для работы разных фич нужно авторизоваться.
 
